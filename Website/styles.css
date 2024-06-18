@@ -1,0 +1,115 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth; 
+ }
+
+ body{
+    background: #fff; 
+    color: #080808;
+    width: 96%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+.sidemenu button {
+    margin-left: 1rem;
+   padding: 1rem;
+   border: 0.5px solid lightgrey;
+   border-radius: 2rem;
+   background-color: #fff;
+}
+
+.btn1{
+    margin-right: 5rem;
+}
+
+.header{
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+.container div h1{
+    font-size: 6rem;
+    font-weight: 600;
+    word-spacing: 1rem;
+}
+
+.container div h2{
+    margin-top: 1rem;
+    font-size: 5rem;
+    font-weight: 500;
+    color: grey;
+    word-spacing: 1.5rem;
+}
+
+.para{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.container div p{
+    font-size: 2rem;
+    margin-right: 5rem;
+}
+
+.form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form button{
+    width: 13rem;
+    height: 12rem;
+    font-size: 3rem;   
+    font-weight: 700;
+    color: white;
+    background-color: rgb(111, 111, 111, 1);
+    border-radius: 3rem;
+    border: none;
+    letter-spacing: -0.1rem;
+}
+
+input{
+    width: 60rem;
+    height: 12rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgba(111, 111, 111, 0.1);
+    text-align: center;
+    word-spacing: 0.5rem;
+    font-family: space Mono;
+}
+
+.slider{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.form .btn2{
+    width: 22rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    border: 0.5px solid lightgrey;
+    word-spacing: 1rem;
+}
