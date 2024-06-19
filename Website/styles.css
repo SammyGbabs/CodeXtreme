@@ -112,4 +112,108 @@ input{
     color: black;
     border: 0.5px solid lightgrey;
     word-spacing: 1rem;
+    margin-bottom: 5rem;
 }
+
+.about{
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.content{
+    width: 62rem;
+}
+
+.content h1{
+    font-size: 3.8rem;
+}
+
+.content p{
+    font-size: 1.5rem;
+    word-spacing: 0.7rem;
+    text-align: justify;
+}
+
+.images{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.images2{
+    margin-right: 27rem;
+    margin-top: 2rem;
+}
+
+.images h2, .images2 h2{
+    margin-top: 1.5rem;
+    font-size: 4rem;
+    font-weight: 500;
+    word-spacing: 1.5rem;
+}
+
+.Sponsor{
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-bottom: 6rem;
+}
+
+.Sponsor h2{
+    font-size: 4rem;
+    font-weight: 500;
+    word-spacing: 1.5rem;
+}
+/*section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 10rem;} /* space between What and Why divs */
+
+
+/*.What, .Why {
+    display: flex;
+    flex-direction: column; /* stack content and image vertically */
+    /*align-items: center;
+    gap: 5rem; /* space between content and image
+    text-align: center;
+}
+
+.content, .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sponsor {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 5.1rem;
+}*/
+/* Ensure images are responsive responsivity
+img {
+    max-width: 100%;
+    height: auto;
+}*/
+
+
