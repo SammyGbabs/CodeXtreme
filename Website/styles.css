@@ -170,6 +170,66 @@ input{
     font-weight: 500;
     word-spacing: 1.5rem;
 }
+
+
+.xxx {
+    height: 90vh;
+}
+
+.track {
+    margin-left: 11rem;
+}
+
+.track div h1 {
+    font-size: 5rem;
+}
+
+.track1 {
+    font-size: 2.2rem;
+    word-spacing: 0.3rem;
+    line-height: 2.8rem;
+    width: 70vw;
+}
+
+.track-img div p {
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+}
+
+.track-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 4rem;
+    gap: 6rem;
+    margin-left: 10rem;
+    width: 60vw;
+}
+
+.track-img div {
+    flex: 1 1 170px;
+    max-width: 170px;
+}
+
+.circle {
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.more h2 {
+    margin-top: 2rem;
+    margin-left: -18rem;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+
 /*section {
     display: flex;
     flex-direction: column;
