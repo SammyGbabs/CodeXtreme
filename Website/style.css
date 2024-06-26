@@ -10,10 +10,9 @@ html{
     scroll-behavior: smooth; 
  }
 
- body{
+body{
     background: #fff; 
     color: #080808;
-    width: 96%;
 }
 
 nav{
@@ -125,21 +124,23 @@ input{
     flex-direction: row;
     flex-wrap: wrap; 
     justify-content: space-between;
-    gap: 5rem;
+    margin-left: 9rem;
 }
 
 .content{
-    width: 62rem;
+    width: 46%;
 }
 
 .content h1{
-    font-size: 3.8rem;
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
 }
 
 .content p{
-    font-size: 1.5rem;
-    word-spacing: 0.7rem;
-    text-align: justify;
+    font-size: 1.4rem;
+    word-spacing: 0.8rem;
+    line-height: 2.2rem;
+    width: 65.5%;
 }
 
 .images{
@@ -148,7 +149,7 @@ input{
 }
 
 .images2{
-    margin-right: 27rem;
+    margin-right: 24rem;
     margin-top: 2rem;
 }
 
@@ -161,7 +162,7 @@ input{
 
 .Sponsor{
     margin-top: 6rem;
-    margin-left: 6rem;
+    margin-left: 10rem;
     margin-bottom: 6rem;
 }
 
@@ -170,7 +171,6 @@ input{
     font-weight: 500;
     word-spacing: 1.5rem;
 }
-
 
 .xxx {
     height: 90vh;
@@ -216,7 +216,7 @@ input{
     border: 1px solid gray;
     border-radius: 2rem;
     padding: 1rem;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 .more h2 {
@@ -229,51 +229,229 @@ a {
     color: black;
 }
 
+.Schedule {
+    width: 90%;
+    margin-left: 11rem;
+    height: 90vh;
+}
 
-/*section {
+.Schedule1 {
+    width: 90%;
+    margin-left: 11rem;
+    font-size: 3.5rem;
+}
+
+.Schedule div h1 {
+    font-size: 4.5rem;
+}
+
+.days h4 {
+    display: inline-block;
+    border: 0.5px solid lightgrey;
+    background-color: rgb(219, 220, 222);
+    width: 10rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2.5rem;
+    font-size: 1.4rem;
+}
+
+.list {
+    font-size: 1.6rem;
+    margin-left: 4rem; 
+    margin-top: 3rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.speaker  {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.speaker p {
+    font-size: 1.9rem;
+}
+
+.speaker > div {
+    margin: 0 30px; 
+}
+
+.more1 h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.xyz {
     margin-top: 10rem;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    gap: 10rem;} /* space between What and Why divs */
-
-
-/*.What, .Why {
-    display: flex;
-    flex-direction: column; /* stack content and image vertically */
-    /*align-items: center;
-    gap: 5rem; /* space between content and image
+.badge {
     text-align: center;
 }
 
-.content, .image {
+.badge p {
+    font-size: 2.5rem;
+    font-weight: 200;
+    word-spacing: 0.8rem;
+    margin-top: 4.5rem;
+}
+
+.Sponsors  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.Team {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Team p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    word-spacing: 0.5rem;
+    margin-top: 1rem;
+}
+
+.Teams {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.Teams div p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    word-spacing: 0.5rem;
+    margin-top: 1rem;
+}
+
+.faqs {
+    width: 90%;
+    margin-left: 7.4rem;
+}
+
+.faqs h1 {
+    font-size: 4.5rem;
+}
+
+article {
+    border: 0.01px solid grey;
+}
+
+.fa-solid {
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+article p  {
+    font-size: 1.4rem;
+   margin-top: 2rem;
+   margin-left: 1.5rem;
+}
+
+.yyy {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.yyz {
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.faq {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: black;
+    bottom: 0;
+    margin-top: 13rem;
+}
+
+.footer1 {
+    margin-left: 5rem;
+}
+
+footer div h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.fill-form {
+    margin-left: 12.5rem;
+    padding-top:6rem;
+}
+
+.fill-form p {
+    font-size: 2rem;
+    color: gray;
+    word-spacing: 1rem;
+    letter-spacing: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+.fill-form a {
+    color: gray;
+    font-size: 2rem;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.details div h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.details-code a {
+    color: gray;
+}
+
+.details-code {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 2rem;
 }
 
-.Sponsor {
+.copy {
+    color: gray;
+    margin-top: 5rem;
     text-align: center;
-    width: 100%;
-    max-width: 1200px;
-    text-align: center;
+    font-size: 2.5rem;
 }
-
-.content h1{
-    font-size: 5.1rem;
-}*/
-/* Ensure images are responsive responsivity
-img {
-    max-width: 100%;
-    height: auto;
-}*/
-
-
